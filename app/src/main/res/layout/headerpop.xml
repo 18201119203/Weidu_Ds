@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Button
+        android:id="@+id/camera"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:textSize="@dimen/dp_20"
+        android:textColor="#fff"
+        android:layout_margin="@dimen/dp_7"
+        android:background="#aaa"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="相机"/>
+
+    <Button
+        android:id="@+id/photo"
+        app:layout_constraintTop_toBottomOf="@id/camera"
+        android:layout_width="match_parent"
+        android:textSize="@dimen/dp_20"
+        android:layout_margin="@dimen/dp_7"
+        android:textColor="#fff"
+        android:background="#aaa"
+        android:layout_height="@dimen/dp_50"
+        android:text="相册"/>
+
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relativel"
+    android:scaleType="fitXY"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/mybg">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_marginTop="@dimen/dp_142"
+        android:background="@drawable/my_bg"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/my_home_ziliao"
+            android:layout_marginTop="@dimen/dp_130"
+            android:layout_marginLeft="@dimen/dp_24"
+            android:textSize="@dimen/sp_14"
+            android:drawableLeft="@drawable/my_icon_information"
+            android:textColor="#666666"
+            android:drawablePadding="@dimen/dp_20"
+            android:layout_width="wrap_content"
+            android:text="个人资料"
+            android:layout_height="wrap_content" />
+        <View
+            android:layout_width="@dimen/dp_267"
+            android:layout_height="@dimen/dp_1"
+            android:layout_marginTop="@dimen/dp_3"
+            android:layout_marginLeft="@dimen/dp_68"
+            android:background="#ededed"
+            />
+        <TextView
+            android:id="@+id/my_home_quanzi"
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_marginLeft="@dimen/dp_24"
+            android:textSize="@dimen/sp_14"
+            android:drawableLeft="@drawable/my_icon_circle"
+            android:textColor="#666666"
+            android:drawablePadding="@dimen/dp_20"
+            android:layout_width="wrap_content"
+            android:text="个人圈子"
+            android:layout_height="wrap_content" />
+        <View
+            android:layout_width="@dimen/dp_267"
+            android:layout_height="@dimen/dp_1"
+            android:layout_marginTop="@dimen/dp_3"
+            android:layout_marginLeft="@dimen/dp_68"
+            android:background="#ededed"
+            />
+        <TextView
+            android:id="@+id/my_home_zuji"
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_marginLeft="@dimen/dp_24"
+            android:textSize="@dimen/sp_14"
+            android:textColor="#666666"
+            android:drawableLeft="@drawable/my_icon_foot"
+            android:drawablePadding="@dimen/dp_20"
+            android:layout_width="wrap_content"
+            android:text=" 我的足迹"
+            android:layout_height="wrap_content" />
+        <View
+            android:layout_width="@dimen/dp_267"
+            android:layout_height="@dimen/dp_1"
+            android:layout_marginTop="@dimen/dp_3"
+            android:layout_marginLeft="@dimen/dp_68"
+            android:background="#ededed"
+            />
+        <TextView
+            android:id="@+id/my_home_qianbao"
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_marginLeft="@dimen/dp_24"
+            android:textSize="@dimen/sp_14"
+            android:textColor="#666666"
+            android:drawablePadding="@dimen/dp_20"
+            android:drawableLeft="@drawable/my_icon_wallet"
+            android:layout_width="wrap_content"
+            android:text="我的钱包"
+            android:layout_height="wrap_content" />
+        <View
+            android:layout_width="@dimen/dp_267"
+            android:layout_height="@dimen/dp_1"
+            android:layout_marginTop="@dimen/dp_3"
+            android:layout_marginLeft="@dimen/dp_68"
+            android:background="#ededed"
+            />
+        <TextView
+
+            android:id="@+id/my_home_address"
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_marginLeft="@dimen/dp_24"
+            android:textSize="@dimen/sp_14"
+            android:drawableLeft="@drawable/my_icon_address"
+            android:textColor="#666666"
+            android:drawablePadding="@dimen/dp_20"
+            android:layout_width="wrap_content"
+            android:text="我的收货地址"
+            android:layout_height="wrap_content" />
+        <View
+            android:layout_width="@dimen/dp_267"
+            android:layout_height="@dimen/dp_1"
+            android:layout_marginTop="@dimen/dp_3"
+            android:layout_marginLeft="@dimen/dp_68"
+            android:background="#ededed"
+            />
+
+    </LinearLayout>
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/my_home_tou"
+        app:roundAsCircle="true"
+        android:layout_width="@dimen/dp_80"
+        android:layout_height="@dimen/dp_80"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp_102" />
+    <TextView
+        android:id="@+id/my_name"
+        android:layout_width="wrap_content"
+        android:text="我是吃不胖的小baba"
+        android:textSize="14sp"
+        android:textColor="#666666"
+        android:layout_below="@id/my_home_tou"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp_20"
+        android:layout_height="wrap_content" />
+
+
+
+
+
+</RelativeLayout>
+
+
+

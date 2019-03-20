@@ -1,0 +1,30 @@
+package com.example.weiduapp.bean;
+
+import java.util.List;
+
+public class ShopCartBean {
+
+    public String message;
+    public String status;
+    public List<ResultBean> result;
+
+    public static class ResultBean {
+
+        public int num;
+        public boolean ischelick;
+        public int commodityId;
+        public String commodityName;
+        public int count;
+        public String pic;
+        public double price;
+
+        @Override
+        public String toString() {
+            return "{'commodityId':"+commodityId+",'amount':"+num+"}";
+        }
+
+        public String toStringData() {
+            return "{'commodityId':"+commodityId+",'count':"+count+"}";
+        }
+    }
+}
